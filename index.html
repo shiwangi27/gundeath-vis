@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+
+
+.states {
+  fill: #CCC;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .8px;
+}
+
+.SlateTitle{
+	font-size: 20px;
+	color: #636363
+}
+
+circle.swatch {
+    fill: #e44;
+    opacity: 0.8;
+
+}
+
+.legendSize{
+	font-size: 12px;
+}
+
+.LegendTitle{
+	font-size: 15px
+}
+
+/* CSS goes here. */
+</style>
+<body>
+
+	<input name="gender" type="radio" value="male" id="male-radio" checked>
+	<label for="male-mode"> Male </label>
+
+	<input name="gender" type="radio" value="female" id="female-radio">
+	<label for="female-mode"> Female </label>
+
+	<input name="gender" type="radio" value="total" id="total-radio">
+	<label for="total-mode">Total </label>
+
+<script type="text/javascript" src="./js/lib/d3.min.js"> </script>
+<script type="text/javascript" src="./js/lib/topojson.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.9.0/d3-legend.min.js"></script>
+<script type="text/javascript" src="./js/src/app.js"></script>
+
+
+
+</body>
+</html>
+
+
