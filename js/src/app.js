@@ -2,7 +2,7 @@
 
 d3.queue()
     .defer(d3.json, "/data/us-states.json")
-    .defer(d3.json, "/data/gundeaths.json")
+    .defer(d3.json, "https://raw.githubusercontent.com/shiwangi27/gundeath-vis.github.io/master/data/gundeaths.json")
     .await(ready);
 
 const width = window.innerWidth,
