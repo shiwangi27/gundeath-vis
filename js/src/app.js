@@ -57,12 +57,12 @@ function makeLegend(cityCounts, key) {
     g.append("text")
         .attr("class", "LegendTitle")
         .text("Gun Death Freqency")
-        .attr("transform","translate(" + [1.55*height , 0.43*width]   + ")" )
+        .attr("transform","translate(" + [1.64*height , 0.43*width]   + ")" )
 
     // circle legend
     g.append("g")
         .attr("class", "legendSize")
-        .attr("transform", "translate(" + [1.53*height , 0.45*width]   + ")")
+        .attr("transform", "translate(" + [1.62*height , 0.45*width]   + ")")
         .call(
             d3.legendSize()
                 .scale(scale)
